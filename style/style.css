@@ -1,0 +1,30 @@
+/* Notebook tab bar */
+.lm-DockPanel-tabBar {
+  background: transparent;
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab {
+  margin-left: 2px;
+  transition: text-shadow cubic-bezier(0, 0.2, 0, 0.2) 0.2s,
+    color cubic-bezier(0, 0.2, 0, 0.2) 0.2s, opacity 0.2s;
+  padding: 1px 8px 0px 8px;
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before {
+  top: auto;
+  bottom: calc(-1 * var(--jp-border-width));
+  height: 1.5px;
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab.lm-mod-closable > .lm-TabBar-tabCloseIcon {
+  opacity: 0;
+}
+
+.lm-DockPanel-tabBar
+  .lm-TabBar-tab.lm-mod-closable:hover:not(.lm-mod-current)
+  > .lm-TabBar-tabCloseIcon,
+.lm-DockPanel-tabBar
+  .lm-TabBar-tab.lm-mod-closable.lm-mod-current
+  > .lm-TabBar-tabCloseIcon {
+  opacity: 1;
+}
