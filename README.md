@@ -5,7 +5,7 @@ A JupyterLab theme with Seoul 256 color scheme
 
 ## Requirements
 
-- JupyterLab >= 4.0.0
+-   JupyterLab >= 4.0.0
 
 ## Install
 
@@ -74,4 +74,5 @@ folder is located. Then you can remove the symlink named `seoul256-jupyterlab-th
 ### Packaging the extension
 
 See [RELEASE](RELEASE.md)
+
 # seoul256-jupyterlab-theme
