@@ -5,7 +5,7 @@ A JupyterLab theme with Seoul 256 color scheme
 
 ## Requirements
 
--   JupyterLab >= 4.0.0
+- JupyterLab >= 4.0.0
 
 ## Install
 
