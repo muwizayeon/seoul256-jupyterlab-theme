@@ -4,6 +4,7 @@
 input.jp-mod-styled {
   background: var(--seoul256-dark-black);
 }
+
 select.jp-mod-styled {
   background: var(--seoul256-dark-black);
 }
@@ -11,7 +12,7 @@ select.jp-mod-styled {
 /* Background */
 
 /* Seould 256 Dark Style */
-.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before {
+.lm-dockpanel-tabbar .lm-tabbar-tab.jp-mod-current::before {
   background: linear-gradient(
     to right,
     #941e34,
@@ -20,5 +21,6 @@ select.jp-mod-styled {
     #455f54,
     #594743
   );
+
   /* , #504e49, #a4a199, #e5b560, #d8ccad) */
 }
