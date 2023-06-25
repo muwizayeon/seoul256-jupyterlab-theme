@@ -94,7 +94,6 @@
     "node_modules",
     "dist",
     "coverage",
-    "style",
     "**/*.d.ts"
   ],
   "eslintConfig": {
@@ -169,7 +168,7 @@
       "value-no-vendor-prefix": null,
       "alpha-value-notation": null,
       "color-function-notation": null,
-      "kebab-case": "off"
+      "camelcase": "on"
     }
   }
 }
