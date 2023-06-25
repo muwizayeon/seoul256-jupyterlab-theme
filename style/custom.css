@@ -12,7 +12,7 @@ select.jp-mod-styled {
 /* Background */
 
 /* Seould 256 Dark Style */
-.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current::before {
+.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before {
   background: linear-gradient(
     to right,
     #941e34,

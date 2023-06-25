@@ -1,30 +1,30 @@
 /* Notebook tab bar */
-.lm-dockpanel-tabbar {
+.lm-DockPanel-tabBar {
   background: transparent;
 }
 
-.lm-dockpanel-tabbar .lm-tabbar-tab {
+.lm-DockPanel-tabBar .lm-TabBar-tab {
   margin-left: 2px;
   transition: text-shadow cubic-bezier(0, 0.2, 0, 0.2) 0.2s,
     color cubic-bezier(0, 0.2, 0, 0.2) 0.2s, opacity 0.2s;
   padding: 1px 8px 0.0001px;
 }
 
-.lm-dockpanel-tabbar .lm-tabbar-tab.jp-mod-current::before {
+.lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before {
   top: auto;
   bottom: calc(-1 * var(--jp-border-width));
   height: 1.5px;
 }
 
-.lm-dockpanel-tabbar .lm-tabbar-tab.lm-mod-closable > .lm-tabbar-tabcloseicon {
+.lm-DockPanel-tabBar .lm-TabBar-tab.lm-mod-closable > .lm-TabBar-tabCloseIcon {
   opacity: 0;
 }
 
-.lm-dockpanel-tabbar
-  .lm-tabbar-tab.lm-mod-closable:hover:not(.lm-mod-current)
-  > .lm-tabbar-tabcloseicon
-  .lm-dockpanel-tabbar
-  .lm-tabbar-tab.lm-mod-closable.lm-mod-current
-  > .lm-tabbar-tabcloseicon {
+.lm-DockPanel-tabBar
+  .lm-TabBar-tab.lm-mod-closable:hover:not(.lm-mod-current)
+  > .lm-TabBar-tabCloseIcon
+  .lm-DockPanel-tabBar
+  .lm-TabBar-tab.lm-mod-closable.lm-mod-current
+  > .lm-TabBar-tabCloseIcon {
   opacity: 1;
 }
