@@ -22,7 +22,7 @@
 
 .lm-DockPanel-tabBar
   .lm-TabBar-tab.lm-mod-closable:hover:not(.lm-mod-current)
-  > .lm-TabBar-tabCloseIcon, .lm-DockPanel-tabBar
+  > .lm-TabBar-tabCloseIcon,.lm-DockPanel-tabBar
   .lm-TabBar-tab.lm-mod-closable.lm-mod-current
   > .lm-TabBar-tabCloseIcon {
   opacity: 1;
