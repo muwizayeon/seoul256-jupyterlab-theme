@@ -122,8 +122,7 @@
           "custom": {
             "regex": "^I[A-Z]",
             "match": true
-          },
-          "kebabcase": "off"
+          }
         }
       ],
       "@typescript-eslint/no-unused-vars": [
@@ -148,7 +147,8 @@
         "all"
       ],
       "eqeqeq": "error",
-      "prefer-arrow-callback": "error"
+      "prefer-arrow-callback": "error",
+      "kebabcase": "off"
     }
   },
   "prettier": {
