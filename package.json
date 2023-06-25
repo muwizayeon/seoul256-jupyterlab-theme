@@ -170,7 +170,7 @@
       "color-function-notation": null,
       "selector-class-pattern": "^([a-zA-Z]*)(-[a-zA-Z0-9]+)*$|^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
       "selector-pseudo-element-colon-notation": "single",
-      "shorthand-property-no-redundant-values": false 
+      "shorthand-property-no-redundant-values": "null" 
     }
   }
 }
