@@ -168,7 +168,7 @@
       "value-no-vendor-prefix": null,
       "alpha-value-notation": null,
       "color-function-notation": null,
-      "camelcase": "on"
+      "selector-class-pattern":"^[a-z][a-zA-Z0-9]+$|^[A-Z][a-zA-Z0-9]+$"
     }
   }
 }
