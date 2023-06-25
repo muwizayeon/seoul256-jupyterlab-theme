@@ -7,7 +7,7 @@
   margin-left: 2px;
   transition: text-shadow cubic-bezier(0, 0.2, 0, 0.2) 0.2s,
     color cubic-bezier(0, 0.2, 0, 0.2) 0.2s, opacity 0.2s;
-  padding: 1px 8px 0.0001px;
+  padding: 1px 8px 0.0001px 8px;
 }
 
 .lm-DockPanel-tabBar .lm-TabBar-tab.jp-mod-current:before {
@@ -22,7 +22,7 @@
 
 .lm-DockPanel-tabBar
   .lm-TabBar-tab.lm-mod-closable:hover:not(.lm-mod-current)
-  > .lm-TabBar-tabCloseIcon
+  > .lm-TabBar-tabCloseIcon,
   .lm-DockPanel-tabBar
   .lm-TabBar-tab.lm-mod-closable.lm-mod-current
   > .lm-TabBar-tabCloseIcon {
