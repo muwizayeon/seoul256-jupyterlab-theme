@@ -169,7 +169,7 @@
       "value-no-vendor-prefix": null,
       "alpha-value-notation": null,
       "color-function-notation": null,
-      "kebabcase": "off"
+      "kebab-case": "off"
     }
   }
 }
