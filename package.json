@@ -94,6 +94,7 @@
     "node_modules",
     "dist",
     "coverage",
+    "style",
     "**/*.d.ts"
   ],
   "eslintConfig": {
@@ -147,8 +148,7 @@
         "all"
       ],
       "eqeqeq": "error",
-      "prefer-arrow-callback": "error",
-      "kebabcase": "off"
+      "prefer-arrow-callback": "error"
     }
   },
   "prettier": {
