@@ -1,7 +1,10 @@
 # seoul256_jupyterlab_theme
 
 [![Github Actions Status](https://github.com/muwizayeon/seoul256-jupyterlab-theme/workflows/Build/badge.svg)](https://github.com/muwizayeon/seoul256-jupyterlab-theme/actions/workflows/build.yml)
+
 A JupyterLab theme with Seoul 256 color scheme
+
+<img width="1845" alt="Screen Shot 2023-06-25 at 1 07 42 AM" src="https://github.com/muwizayeon/seoul256-jupyterlab-theme/assets/54628972/5ca6be90-58fd-4d7f-a3ed-c6cc70e74093">
 
 ## Requirements
 
