@@ -336,8 +336,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* General editor styles */
 
-  --jp-editor-selected-background: var(--jp-layout-color2);
-  --jp-editor-selected-focused-background: #d7d4f0;
+  --jp-editor-selected-background: var(--seoul256-dark-selection);
+  --jp-editor-selected-focused-background: var(--seoul256-dark-selection);
   --jp-editor-cursor-color: rgba(216, 216, 216, 1);
 
   /* Code mirror specific styles */
